@@ -12,7 +12,7 @@
 
         .header-content{
             height: 100%;
-            width: 1120px;
+            width: 984px;
             margin: 0 auto;
             
             display: flex;
@@ -70,6 +70,8 @@
                    .text-title{
                     font-size: 35px;
                     font-weight: 500;
+                   font-family: 'Poppins', sans-serif;
+
                    }
 
                    .text{
@@ -106,6 +108,9 @@
                 }
 
                 .content-joke-inner-text{
+                    width: 915px;
+                margin-left: 5%;
+
                     font-size: 18px;
                     color: #686868;
                     line-height: 30px;
@@ -132,36 +137,36 @@
                 }
 
                 .content-joke-btn-like{
-                    background-color: #29b363;
+                    background-color:#2c7edb;
+                    border-bottom: 2px solid #1c69c0;
+                    
                     margin-right: 30px;
+                    display: flex;
+                    justify-content:center;
+                    align-items:center;
+
+                    &:hover{
+                        border-bottom: none;
+                        background-color: #0f6dd7;
+                        outline: 2px solid #0f6dd7;
+                        
+                   
+                        box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+                    }
+                }
+
+                .content-joke-btn-dislike{
+                    background-color: #29b363;
                     border-bottom: 2px solid #19984e;
                     display: flex;
                     justify-content:center;
                     align-items:center;
 
                     &:hover{
-                        border-bottom: none;
                         background-color: #18d969;
                         outline: 2px solid #18d969;
-                        border-radius: 4px;
-                        box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
-                    }
-                }
-
-                .content-joke-btn-dislike{
-                   
-                    background-color:#2c7edb;
-                    
-                    border-bottom: 2px solid #1c69c0;
-                    display: flex;
-                    justify-content:center;
-                    align-items:center;
-
-                    &:hover{
-                        background-color: #0f6dd7;
-                        outline: 2px solid #0f6dd7;
                         border-bottom: none;
-                        border-radius: 4px;
+                     
                         box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
                     }
                 }
